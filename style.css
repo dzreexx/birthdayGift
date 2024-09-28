@@ -1,80 +1,84 @@
-*{
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
-    font-family: "Fredoka", sans-serif;
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Fredoka", sans-serif;
 }
 
-body, html{
-    height: 100%;
+body,
+html {
+  height: 100%;
 }
 
 .welcome {
-    gap: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    transition: opacity 1s ease-in-out;
-    opacity: 1;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: opacity 1s ease-in-out;
+  opacity: 1;
 }
 
 .judul {
-    opacity: 1;
-    transition: all 3s ease-in-out;
+  opacity: 1;
+  transition: all 3s ease-in-out;
 }
 
 .formData {
-    opacity: 1;
-    transition: opacity 1s ease-in-out;
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
 }
 #tombol {
-    opacity: 1;
-    transition: opacity 1s ease-in-out;
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
 }
 
-.letter{
-    opacity: 0;
-    margin-left:50px ;
-    margin-right:50px ;
-    padding-left:20px ;
-    padding-right:20px ;
-    height: 50vh;
-    gap: 20px;
-    text-align: justify;
-    border: 1px solid black;
-    display: none;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    transition: all 1s ease-in-out;
+.letter {
+  opacity: 0;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 50vh;
+  gap: 20px;
+  text-align: justify;
+  border: 1px solid black;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s ease-in-out;
 }
 
-.container{
-    opacity: 0;
-    display: none;
-    gap: 10px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.container {
+  opacity: 0;
+  display: none;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .item {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-    
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
 
 .item.show {
-    opacity: 1;
-    transform: translateY(0);
-    border: 1px solid;
-    display: flex;
-    flex-direction: column;
+  opacity: 1;
+  transform: translateY(0);
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
 }
 
-.gambar{
-    width: 300px;
+.gambar {
+  width: 300px;
+}
+
+.hint {
+  transition: all 1s ease-in-out;
 }
