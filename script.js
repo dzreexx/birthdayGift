@@ -71,7 +71,8 @@ btnWish.addEventListener("click", function () {
   surat.appendChild(a);
   a.setAttribute(
     "href",
-    `https://wa.me/6285156005641?text=Keinginan%20kamu,%20${encodeData}`
+    `https://web.whatsapp.com/send/?phone=6285156005641&text=Keinginan+kamu%2C+${encodeData}+&type=phone_number&app_absent=0`,
+    // `https://wa.me/6285156005641?text=Keinginan%20kamu,%20${encodeData}`,
   );
   a.setAttribute("target", "_blank");
   a.innerHTML = "Kirim";
